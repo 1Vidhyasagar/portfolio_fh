@@ -13,7 +13,7 @@ const Contact = () => {
       ${
         isDarkMode
           ? "bg-gray-100 text-gray-800"
-          : " bg-gray-800 text-gray-200"
+          : " bg-gradient-to-l from-gray-500 via-gray-600 to-gray-900 text-gray-200"
       }`}
     >
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
